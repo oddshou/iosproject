@@ -16,7 +16,6 @@
 		4D5848F41AF873070038DCD3 /* ILTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D5848F31AF873070038DCD3 /* ILTestViewController.xib */; };
 		4D5848F81AF8F26E0038DCD3 /* ILSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5848F71AF8F26E0038DCD3 /* ILSettingCell.m */; };
 		4D5993771AF74D9000D8B69F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D5993751AF74D9000D8B69F /* Main.storyboard */; };
-		4D5993791AF74D9000D8B69F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D5993781AF74D9000D8B69F /* Images.xcassets */; };
 		4D59937C1AF74D9000D8B69F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D59937A1AF74D9000D8B69F /* LaunchScreen.xib */; };
 		4D5993881AF74D9000D8B69F /* CSLotteryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5993871AF74D9000D8B69F /* CSLotteryTests.m */; };
 		4D5993B01AF74F9E00D8B69F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5993AE1AF74F9E00D8B69F /* AppDelegate.m */; };
@@ -27,6 +26,7 @@
 		4D5993BD1AF79AD700D8B69F /* ILNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5993BC1AF79AD700D8B69F /* ILNavigationController.m */; };
 		4D5993C01AF7A92C00D8B69F /* ILLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5993BF1AF7A92C00D8B69F /* ILLoginViewController.m */; };
 		4D5993C71AF7AAC700D8B69F /* ILSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5993C61AF7AAC700D8B69F /* ILSettingTableViewController.m */; };
+		E0238FEE1AF91DE600673F28 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0238FED1AF91DE600673F28 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +58,6 @@
 		4D5993681AF74D9000D8B69F /* CSLottery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSLottery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D59936C1AF74D9000D8B69F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D5993761AF74D9000D8B69F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4D5993781AF74D9000D8B69F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4D59937B1AF74D9000D8B69F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4D5993811AF74D9000D8B69F /* CSLotteryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSLotteryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D5993861AF74D9000D8B69F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,6 +77,7 @@
 		4D5993BF1AF7A92C00D8B69F /* ILLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILLoginViewController.m; sourceTree = "<group>"; };
 		4D5993C51AF7AAC700D8B69F /* ILSettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILSettingTableViewController.h; sourceTree = "<group>"; };
 		4D5993C61AF7AAC700D8B69F /* ILSettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILSettingTableViewController.m; sourceTree = "<group>"; };
+		E0238FED1AF91DE600673F28 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,8 +130,8 @@
 			children = (
 				4D5993931AF74F9E00D8B69F /* Classes */,
 				4D5993751AF74D9000D8B69F /* Main.storyboard */,
-				4D5993781AF74D9000D8B69F /* Images.xcassets */,
 				4D59937A1AF74D9000D8B69F /* LaunchScreen.xib */,
+				E0238FED1AF91DE600673F28 /* Images.xcassets */,
 				4D59936B1AF74D9000D8B69F /* Supporting Files */,
 			);
 			path = CSLottery;
@@ -511,9 +511,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D5993771AF74D9000D8B69F /* Main.storyboard in Resources */,
+				E0238FEE1AF91DE600673F28 /* Images.xcassets in Resources */,
 				4D5848F41AF873070038DCD3 /* ILTestViewController.xib in Resources */,
 				4D59937C1AF74D9000D8B69F /* LaunchScreen.xib in Resources */,
-				4D5993791AF74D9000D8B69F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -673,6 +673,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = CSLottery/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -684,6 +685,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = CSLottery/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
