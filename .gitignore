@@ -1,4 +1,8 @@
-_Store
+#Xcode
+*.DS_Store
+*~
+#Xcode
+#
 build/
 *.pbxuser
 !default.pbxuser
@@ -8,12 +12,10 @@ build/
 !default.mode2v3
 *.perspectivev3
 !default.perspectivev3
-*.xcworkspace
-!default.xcworkspace
 xcuserdata
-profile
+*.xccheckout
 *.moved-aside
 DerivedData
-.idea/
-# Pods - for those of you who use CocoaPods
-Pods
+*.hmap
+*.ipa
+*.xcuserstate
