@@ -7,8 +7,11 @@
 //
 
 #import "ILLoginViewController.h"
+#import "ILSettingTableViewController.h"
+#import "UIImage+Tool.h"
 
 @interface ILLoginViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *loginBtn;
 
 @end
 
@@ -17,6 +20,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    //设置登录按钮拉伸好的图片
+    [_loginBtn setBackgroundImage:[UIImage imageWithResizableImageName:@"RedButton"] forState:UIControlStateNormal];
+    [_loginBtn setBackgroundImage:[UIImage imageWithResizableImageName:@"RedButtonPressed"] forState:UIControlStateHighlighted];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,7 +31,8 @@
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)setting:(id)sender {
-    
+    ILSettingTableViewController *settingVc = [[ILSettingTableViewController alloc] init];
+    [self.navigationController pushViewController:settingVc animated:YES];
 }
 
 /*

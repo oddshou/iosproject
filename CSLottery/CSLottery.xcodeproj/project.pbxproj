@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D5848E31AF8637A0038DCD3 /* UIImage+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5848E21AF8637A0038DCD3 /* UIImage+Tool.m */; };
+		4D5848E61AF866590038DCD3 /* ILSettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5848E51AF866590038DCD3 /* ILSettingItem.m */; };
+		4D5848E91AF86F650038DCD3 /* ILSettingArrowItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5848E81AF86F650038DCD3 /* ILSettingArrowItem.m */; };
+		4D5848EC1AF86FAF0038DCD3 /* ILSettingSwitchItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5848EB1AF86FAF0038DCD3 /* ILSettingSwitchItem.m */; };
+		4D5848EF1AF86FD70038DCD3 /* ILSettingGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5848EE1AF86FD70038DCD3 /* ILSettingGroup.m */; };
+		4D5848F21AF872D10038DCD3 /* ILTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5848F11AF872D10038DCD3 /* ILTestViewController.m */; };
+		4D5848F41AF873070038DCD3 /* ILTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D5848F31AF873070038DCD3 /* ILTestViewController.xib */; };
+		4D5848F81AF8F26E0038DCD3 /* ILSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5848F71AF8F26E0038DCD3 /* ILSettingCell.m */; };
 		4D5993771AF74D9000D8B69F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D5993751AF74D9000D8B69F /* Main.storyboard */; };
 		4D5993791AF74D9000D8B69F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D5993781AF74D9000D8B69F /* Images.xcassets */; };
 		4D59937C1AF74D9000D8B69F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D59937A1AF74D9000D8B69F /* LaunchScreen.xib */; };
@@ -32,6 +40,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D5848E11AF8637A0038DCD3 /* UIImage+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Tool.h"; sourceTree = "<group>"; };
+		4D5848E21AF8637A0038DCD3 /* UIImage+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Tool.m"; sourceTree = "<group>"; };
+		4D5848E41AF866590038DCD3 /* ILSettingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILSettingItem.h; sourceTree = "<group>"; };
+		4D5848E51AF866590038DCD3 /* ILSettingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILSettingItem.m; sourceTree = "<group>"; };
+		4D5848E71AF86F650038DCD3 /* ILSettingArrowItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILSettingArrowItem.h; sourceTree = "<group>"; };
+		4D5848E81AF86F650038DCD3 /* ILSettingArrowItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILSettingArrowItem.m; sourceTree = "<group>"; };
+		4D5848EA1AF86FAF0038DCD3 /* ILSettingSwitchItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILSettingSwitchItem.h; sourceTree = "<group>"; };
+		4D5848EB1AF86FAF0038DCD3 /* ILSettingSwitchItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILSettingSwitchItem.m; sourceTree = "<group>"; };
+		4D5848ED1AF86FD70038DCD3 /* ILSettingGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILSettingGroup.h; sourceTree = "<group>"; };
+		4D5848EE1AF86FD70038DCD3 /* ILSettingGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILSettingGroup.m; sourceTree = "<group>"; };
+		4D5848F01AF872D10038DCD3 /* ILTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILTestViewController.h; sourceTree = "<group>"; };
+		4D5848F11AF872D10038DCD3 /* ILTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILTestViewController.m; sourceTree = "<group>"; };
+		4D5848F31AF873070038DCD3 /* ILTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ILTestViewController.xib; sourceTree = "<group>"; };
+		4D5848F61AF8F26E0038DCD3 /* ILSettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILSettingCell.h; sourceTree = "<group>"; };
+		4D5848F71AF8F26E0038DCD3 /* ILSettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILSettingCell.m; sourceTree = "<group>"; };
 		4D5993681AF74D9000D8B69F /* CSLottery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSLottery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D59936C1AF74D9000D8B69F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D5993761AF74D9000D8B69F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -75,6 +98,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D5848E01AF8629B0038DCD3 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				4D5848E11AF8637A0038DCD3 /* UIImage+Tool.h */,
+				4D5848E21AF8637A0038DCD3 /* UIImage+Tool.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
 		4D59935F1AF74D9000D8B69F = {
 			isa = PBXGroup;
 			children = (
@@ -344,6 +376,7 @@
 		4D5993AC1AF74F9E00D8B69F /* other */ = {
 			isa = PBXGroup;
 			children = (
+				4D5848E01AF8629B0038DCD3 /* Category */,
 				4D5993AD1AF74F9E00D8B69F /* AppDelegate.h */,
 				4D5993AE1AF74F9E00D8B69F /* AppDelegate.m */,
 				4D5993AF1AF74F9E00D8B69F /* main.m */,
@@ -366,6 +399,9 @@
 			children = (
 				4D5993C51AF7AAC700D8B69F /* ILSettingTableViewController.h */,
 				4D5993C61AF7AAC700D8B69F /* ILSettingTableViewController.m */,
+				4D5848F01AF872D10038DCD3 /* ILTestViewController.h */,
+				4D5848F11AF872D10038DCD3 /* ILTestViewController.m */,
+				4D5848F31AF873070038DCD3 /* ILTestViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -373,6 +409,14 @@
 		4D5993C31AF7AA6A00D8B69F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4D5848E41AF866590038DCD3 /* ILSettingItem.h */,
+				4D5848E51AF866590038DCD3 /* ILSettingItem.m */,
+				4D5848E71AF86F650038DCD3 /* ILSettingArrowItem.h */,
+				4D5848E81AF86F650038DCD3 /* ILSettingArrowItem.m */,
+				4D5848EA1AF86FAF0038DCD3 /* ILSettingSwitchItem.h */,
+				4D5848EB1AF86FAF0038DCD3 /* ILSettingSwitchItem.m */,
+				4D5848ED1AF86FD70038DCD3 /* ILSettingGroup.h */,
+				4D5848EE1AF86FD70038DCD3 /* ILSettingGroup.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -380,6 +424,8 @@
 		4D5993C41AF7AA6A00D8B69F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4D5848F61AF8F26E0038DCD3 /* ILSettingCell.h */,
+				4D5848F71AF8F26E0038DCD3 /* ILSettingCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -465,6 +511,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D5993771AF74D9000D8B69F /* Main.storyboard in Resources */,
+				4D5848F41AF873070038DCD3 /* ILTestViewController.xib in Resources */,
 				4D59937C1AF74D9000D8B69F /* LaunchScreen.xib in Resources */,
 				4D5993791AF74D9000D8B69F /* Images.xcassets in Resources */,
 			);
@@ -484,12 +531,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D5848F81AF8F26E0038DCD3 /* ILSettingCell.m in Sources */,
+				4D5848EC1AF86FAF0038DCD3 /* ILSettingSwitchItem.m in Sources */,
+				4D5848E91AF86F650038DCD3 /* ILSettingArrowItem.m in Sources */,
+				4D5848E61AF866590038DCD3 /* ILSettingItem.m in Sources */,
 				4D5993BD1AF79AD700D8B69F /* ILNavigationController.m in Sources */,
 				4D5993BA1AF7647900D8B69F /* ILTabBarButton.m in Sources */,
+				4D5848F21AF872D10038DCD3 /* ILTestViewController.m in Sources */,
+				4D5848EF1AF86FD70038DCD3 /* ILSettingGroup.m in Sources */,
 				4D5993B01AF74F9E00D8B69F /* AppDelegate.m in Sources */,
 				4D5993C71AF7AAC700D8B69F /* ILSettingTableViewController.m in Sources */,
 				4D5993B11AF74F9E00D8B69F /* main.m in Sources */,
 				4D5993B71AF7572000D8B69F /* ILTabBar.m in Sources */,
+				4D5848E31AF8637A0038DCD3 /* UIImage+Tool.m in Sources */,
 				4D5993C01AF7A92C00D8B69F /* ILLoginViewController.m in Sources */,
 				4D5993B41AF756DD00D8B69F /* ILTabBarViewController.m in Sources */,
 			);

@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="f7L-gP-zMq">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -25,7 +26,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sqg-BQ-dcR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-406" y="-182"/>
+            <point key="canvasLocation" x="-406" y="-181.99999999999997"/>
         </scene>
         <!--Item-->
         <scene sceneID="czY-0d-qpo">
@@ -89,6 +90,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="0.19841151718167438" blue="0.99292236363234543" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="7Ps-wM-wxe"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aTW-Et-7bC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -145,7 +147,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EFv-gI-wXv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="349" y="249"/>
+            <point key="canvasLocation" x="349" y="248.99999999999997"/>
         </scene>
         <!--2-->
         <scene sceneID="JnJ-Hi-lzQ">
@@ -164,7 +166,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jfr-Ub-zX6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1252" y="249"/>
+            <point key="canvasLocation" x="1252" y="248.99999999999997"/>
         </scene>
         <!--Item-->
         <scene sceneID="DCZ-mg-Y8V">
@@ -181,7 +183,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D8j-CX-DOv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="333" y="961"/>
+            <point key="canvasLocation" x="333" y="960.99999999999989"/>
         </scene>
         <!--3-->
         <scene sceneID="zBq-Zn-KD6">
@@ -200,7 +202,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iwj-nu-VIt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1236" y="961"/>
+            <point key="canvasLocation" x="1236" y="960.99999999999989"/>
         </scene>
         <!--Item-->
         <scene sceneID="JeX-gR-3v1">
@@ -217,7 +219,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aaY-GW-J20" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="333" y="1573"/>
+            <point key="canvasLocation" x="333" y="1572.9999999999998"/>
         </scene>
         <!--我的彩票-->
         <scene sceneID="OgF-rA-gOe">
@@ -231,31 +233,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="LoginScreen" translatesAutoresizingMaskIntoConstraints="NO" id="ITk-59-e5K">
-                                <rect key="frame" x="150" y="230" width="300" height="140"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="LoginScreen" translatesAutoresizingMaskIntoConstraints="NO" id="ITk-59-e5K">
+                                <rect key="frame" x="10" y="64" width="300" height="140"/>
+                                <color key="backgroundColor" red="1" green="0.1984115172" blue="0.99292236359999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="140" id="U7t-XY-G4A"/>
-                                    <constraint firstAttribute="width" constant="300" id="grO-DT-e8I"/>
+                                    <constraint firstAttribute="width" secondItem="ITk-59-e5K" secondAttribute="height" multiplier="15:7" id="cSV-uH-bJm"/>
+                                    <constraint firstAttribute="height" constant="140" id="dlB-iX-btB"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dss-jy-2lw">
+                                <rect key="frame" x="10" y="228" width="300" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="8zM-AB-tq7"/>
+                                </constraints>
+                                <state key="normal" title="登录" backgroundImage="RedButton">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.12718199210775261" green="1" blue="0.52630252427839141" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="ITk-59-e5K" firstAttribute="top" secondItem="c5h-cZ-lSH" secondAttribute="bottom" id="4GK-LT-KTy"/>
-                            <constraint firstItem="ITk-59-e5K" firstAttribute="leading" secondItem="q2L-kc-P9i" secondAttribute="leadingMargin" id="m4V-b4-c3I"/>
+                            <constraint firstItem="ITk-59-e5K" firstAttribute="trailing" secondItem="Dss-jy-2lw" secondAttribute="trailing" id="0k3-fA-mbl"/>
+                            <constraint firstItem="ITk-59-e5K" firstAttribute="top" secondItem="c5h-cZ-lSH" secondAttribute="bottom" constant="10" id="HFK-BL-dIl"/>
+                            <constraint firstItem="ITk-59-e5K" firstAttribute="leading" secondItem="Dss-jy-2lw" secondAttribute="leading" id="Wnb-Y7-gn9"/>
+                            <constraint firstItem="ITk-59-e5K" firstAttribute="leading" secondItem="q2L-kc-P9i" secondAttribute="leadingMargin" constant="-6" id="auS-gL-uaZ"/>
+                            <constraint firstItem="Dss-jy-2lw" firstAttribute="top" secondItem="ITk-59-e5K" secondAttribute="bottom" constant="10" id="nMM-hv-ygT"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="4GK-LT-KTy"/>
-                                <exclude reference="m4V-b4-c3I"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=regular-widthClass=compact">
-                            <mask key="constraints">
-                                <include reference="4GK-LT-KTy"/>
-                                <include reference="m4V-b4-c3I"/>
-                            </mask>
-                        </variation>
                     </view>
                     <navigationItem key="navigationItem" title="我的彩票" id="DTn-eZ-8jc">
                         <barButtonItem key="rightBarButtonItem" title="设置" id="SZc-K7-vLH">
@@ -264,14 +267,18 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="loginBtn" destination="Dss-jy-2lw" id="1r8-eO-wu5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l9n-ZN-S9K" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1236" y="1573"/>
+            <point key="canvasLocation" x="1236" y="1572.9999999999998"/>
         </scene>
     </scenes>
     <resources>
         <image name="LoginScreen" width="150" height="70"/>
+        <image name="RedButton" width="61" height="34"/>
         <image name="zixunBarFlat" width="13" height="11"/>
     </resources>
 </document>
