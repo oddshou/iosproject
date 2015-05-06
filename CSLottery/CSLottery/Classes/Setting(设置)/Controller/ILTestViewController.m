@@ -10,4 +10,14 @@
 
 @implementation ILTestViewController
 
+- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if(self){
+    //custom initialization
+    }
+    return self;
+    
+}
+
 @end

@@ -10,12 +10,14 @@
 #import "ILSettingItem.h"
 #import "ILSettingArrowItem.h"
 #import "ILSettingSwitchItem.h"
+#import "ILSettingLabelItem.h"
 
 
 @interface ILSettingCell ()
 
 @property (nonatomic, strong) UIImageView *imgView;
 @property (nonatomic, strong) UISwitch *switchView;
+@property (nonatomic, strong) UILabel *labelView;
 
 @end
 
@@ -38,6 +40,17 @@
     return _switchView;
 }
 
+- (UILabel *)labelView
+{
+    if(_labelView == nil){
+        _labelView = [[UILabel alloc] init];
+        _labelView.bounds = CGRectMake(0, 0, 100, 44);
+        _labelView.textColor = [UIColor redColor];
+        _labelView.textAlignment = NSTextAlignmentRight;
+    }
+    return _labelView;
+}
+
 - (void)setItem:(ILSettingItem *)item
 {
     _item = item;
@@ -45,18 +58,23 @@
     self.imageView.image = [UIImage imageNamed:_item.icon];
     self.textLabel.text = _item.title;
 
-    
+    [self setUpAccessoryView];
     
 }
 #pragma mark 设置右侧图标为进入或者switch
 - (void)setUpAccessoryView
 {
     if([_item isKindOfClass:[ILSettingArrowItem class]]){   //箭头
-        self.accessoryView = self.imageView;
+        self.accessoryView = self.imgView;
         self.selectionStyle = UITableViewCellSelectionStyleDefault;
     }else if ([_item isKindOfClass:[ILSettingSwitchItem class]]){ //switch
         self.accessoryView = self.switchView;
         self.selectionStyle = UITableViewCellSelectionStyleNone;
+    }else if([_item isKindOfClass:[ILSettingLabelItem class]]){ //label
+        self.accessoryView = self.labelView;
+        ILSettingLabelItem *labelItem = (ILSettingLabelItem *)_item;
+        self.labelView.text = labelItem.text;
+        self.selectionStyle = UITableViewCellSelectionStyleDefault;
     }else{
         self.accessoryView = nil;
         self.selectionStyle = UITableViewCellSelectionStyleDefault;
